@@ -1,8 +1,11 @@
 body{
     font-family: 'Open Sans', sans-serif;
-    background-image: url(img/background.png);
+    background-image: url(img/background2.png);
     background-position-x: center;
+    background-position-y: bottom;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .carousel-item svg {
     width: 100%;
