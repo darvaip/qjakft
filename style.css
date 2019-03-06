@@ -7,6 +7,15 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+main {
+    background-color: #fff8;
+    box-shadow: 0 0 15px 5px #2222
+}
+#headerImg {
+    background-image: url(img/header.jpg);
+    background-size: contain;
+    height: fit-content;
+}
 .carousel-item svg {
     width: 100%;
     height: 25em;
@@ -64,8 +73,6 @@ body{
 }
 #footer {
     background-color: #3339;
-    margin: 0;
-    padding: 0;
     color: #fff;
 }
 .kuratorium h5{
