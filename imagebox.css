@@ -24,6 +24,9 @@
     width: 100%;
     font-size: 3em;
   }
+  .imagebox .imagebox-desc .castleName {
+      font-size: 0.5em;
+  }
   
   .imagebox:hover img {
       filter: brightness(0.6);
