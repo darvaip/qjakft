@@ -11,6 +11,22 @@ main {
     background-color: #fff8;
     box-shadow: 0 0 15px 5px #2222
 }
+.lang-select{
+    position: absolute;
+    top: 1%;
+    right: 2%;
+    z-index: 20;
+}
+.lang-select img {
+    width: 2em;
+    margin: 0.5em;
+    border: solid 1px #aaa5;
+    border-radius: 7px;
+}
+.lang-select .active{
+    padding-bottom: 0.5em;
+    border-bottom: solid 3px red;
+}
 #headerImg {
     background-image: url(img/header.jpg);
     background-size: contain;
@@ -45,6 +61,9 @@ main {
 
 .carousel-indicators .active {
     border-bottom: 4px solid red;
+}
+#title {
+    position: relative;
 }
 #title h1 {
     margin-top: 15%;
